@@ -30,9 +30,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop preview](![image](https://github.com/rafopm/newsletter-sign-up-with-success-message-main/assets/5562967/77133b4f-f3de-4c98-a5a9-99f0db7e4fcc)
+![Desktop preview](![image]([https://github.com/rafopm/newsletter-sign-up-with-success-message-main/assets/5562967/77133b4f-f3de-4c98-a5a9-99f0db7e4fcc](https://github-production-user-asset-6210df.s3.amazonaws.com/5562967/265288506-77133b4f-f3de-4c98-a5a9-99f0db7e4fcc.png))
 )
-![Mobile preview](![image](https://github.com/rafopm/newsletter-sign-up-with-success-message-main/assets/5562967/25525cb9-a025-482b-9390-58eca323ee1f)
+![Mobile preview](![image]([https://github.com/rafopm/newsletter-sign-up-with-success-message-main/assets/5562967/25525cb9-a025-482b-9390-58eca323ee1f](https://github-production-user-asset-6210df.s3.amazonaws.com/5562967/265288546-25525cb9-a025-482b-9390-58eca323ee1f.png))
 )
 
 ### Links
