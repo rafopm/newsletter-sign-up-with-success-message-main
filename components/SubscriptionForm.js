@@ -1,13 +1,36 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import Styles from "../styles/SubscriptionForm.module.css";
 
-export const SubscriptionForm = () => {
+export const SubscriptionForm = ({ onSubmit }) => {
+  const [email, setEmail] = useState("");
+  const [isValidEmail, setIsValidEmail] = useState(true);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (isValidEmail) {
+      onSubmit(email);
+    }
+  };
+
+  const handleEmailChange = (e) => {
+    const inputValue = e.target.value;
+    setEmail(inputValue);
+
+    // Validar el formato de correo electrónico
+    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+
+    // Verificar si el valor ingresado coincide con el formato de correo electrónico
+    const isValid = emailPattern.test(inputValue);
+    setIsValidEmail(isValid);
+  };
+
   return (
     <div>
       <div className={Styles.container}>
         <div className={Styles.formContainer}>
-          <div className={Styles.form}>
+          <form onSubmit={handleSubmit} className={Styles.form}>
             <div className={Styles.content}>
               <h1>Stay updated!</h1>
               <div className={Styles.description}>
@@ -46,19 +69,26 @@ export const SubscriptionForm = () => {
               </ul>
               <div className={Styles.emailLabel}>
                 <h3>Email address</h3>
-                <h3 style={{ color: "var(--tomato)" }}>Valid email required</h3>
+                {!isValidEmail && (
+                  <h3 style={{ color: "var(--tomato)" }}>
+                    Valid email required
+                  </h3>
+                )}
               </div>
               <input
                 type="text"
                 placeholder="email@company.com"
-                className={Styles.txtEmail}
+                className={`${Styles.txtEmail} ${
+                  isValidEmail ? "" : Styles.txtEmailError
+                }`}
+                onChange={handleEmailChange}
               ></input>
 
-              <button className={Styles.btnSubscribe}>
+              <button className={Styles.btnSubscribe} type="submit">
                 Subscribe to monthly newsletter
               </button>
             </div>
-          </div>
+          </form>
           <div className={Styles.illustration}>
             {/* <Image
               width={400}

@@ -1,0 +1,113 @@
+.successContainer {
+  position: absolute;
+  width: 504px;
+  height: 520px;
+  border-radius: 35px;
+  background-color: white;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contenedorTemplate {
+  position: absolute;
+  width: 504px;
+  height: 520px;
+
+  /* background-color: white; */
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.imagentemplate {
+  position: absolute;
+  width: 504px;
+  height: 520px;
+  top: 0;
+  left: 0;
+  object-fit: none;
+}
+
+.success {
+  display: flex;
+  position: relative;
+  width: 376px;
+  height: 408px;
+  margin: 48px 65px 0 65px;
+  flex-direction: column;
+  color: var(--dark-slate-grey);
+}
+
+p.content {
+  margin-top: -14px;
+  line-height: 1.5;
+}
+
+.btnSuccess {
+  margin-top: 24px;
+  width: 376px;
+  height: 56px;
+  border-radius: 8px;
+  border: 0px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: var(--dark-slate-grey);
+  color: white;
+  cursor: pointer;
+}
+
+.btnSuccess:hover {
+    background-color: var(--tomato);
+    border-color: var(--tomato);
+    box-shadow: 0px 4px 8px var(--tomato, 0.2);
+  }
+
+  .emailSubscribe{
+    font-weight: 700;
+  }
+
+
+@media screen and (max-width: 504px) {
+  .successContainer {
+    width: 375px;
+    height: 812px;
+    border-radius: 0px;
+  }
+
+  .contenedorTemplate {
+    width: 375px;
+    height: 812px;
+  }
+
+  .imagentemplate {
+    width: 375px;
+    height: 812px;
+  }
+
+  .success {
+
+    width: 327px;
+    height: 623px;
+    margin: 149px 24px 0 24px;
+  }
+
+  .success h1{
+    margin-top: 37px;
+    font-size: 36px;
+  }
+
+  p.content {
+    margin-top: -7px;
+    
+  }
+
+  .btnSuccess {
+    margin-top: 250px;
+    width: 327px;
+  }
+
+}
