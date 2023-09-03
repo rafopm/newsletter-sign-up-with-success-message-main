@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap');
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+:root {
+ 
+ /* ### Primary */
+
+--tomato: hsl(4, 100%, 67%);
+
+/* ### Neutral */
+--dark-slate-grey: hsl(234, 29%, 20%);
+--charcoal-grey: hsl(235, 18%, 26%);
+--grey: hsl(231, 7%, 60%);
+--white: hsl(0, 0%, 100%);
+
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  color: var(--dark-slate-grey);
+  background:var(--charcoal-grey);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-size: 51px;
+  font-weight: 700;
+}
+
+h3{
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+p{
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
