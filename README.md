@@ -30,8 +30,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![Desktop preview](![image](https://github.com/rafopm/newsletter-sign-up-with-success-message-main/assets/5562967/77133b4f-f3de-4c98-a5a9-99f0db7e4fcc)
+)
+![Mobile preview](![image](https://github.com/rafopm/newsletter-sign-up-with-success-message-main/assets/5562967/25525cb9-a025-482b-9390-58eca323ee1f)
+)
 
 ### Links
 
