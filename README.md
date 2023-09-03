@@ -30,9 +30,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop preview]([/images/desktop-preview.png](https://github-production-user-asset-6210df.s3.amazonaws.com/5562967/265288506-77133b4f-f3de-4c98-a5a9-99f0db7e4fcc.png))
+![image](https://github.com/rafopm/newsletter-sign-up-with-success-message-main/assets/5562967/73cc4bab-3ac2-443e-abd1-8b2b18b70aaa)
 
-![mobile preview]([/images/mobile-preview.png](https://github-production-user-asset-6210df.s3.amazonaws.com/5562967/265288546-25525cb9-a025-482b-9390-58eca323ee1f.png))
+![image](https://github.com/rafopm/newsletter-sign-up-with-success-message-main/assets/5562967/58dd44b5-48cb-4ab8-8273-ff9e269a7cec)
+
 
 ### Links
 
