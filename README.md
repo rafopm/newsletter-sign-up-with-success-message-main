@@ -30,9 +30,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop preview](/images/desktop-preview.png)
+![Desktop preview]([/images/desktop-preview.png](https://github-production-user-asset-6210df.s3.amazonaws.com/5562967/265288506-77133b4f-f3de-4c98-a5a9-99f0db7e4fcc.png))
 
-![mobile preview](/images/mobile-preview.png)
+![mobile preview]([/images/mobile-preview.png](https://github-production-user-asset-6210df.s3.amazonaws.com/5562967/265288546-25525cb9-a025-482b-9390-58eca323ee1f.png))
 
 ### Links
 
